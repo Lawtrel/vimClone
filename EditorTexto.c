@@ -51,7 +51,7 @@ void add_linha(Node **head, Node **tail, const char *text)
 
 void display_conteudo(Node *head, Node *cursor) {
      system("cls");
-     printf("Modo de Comando: 'i' para inserir, ':' para comandos\n");
+     printf("Modo de Comando:\n 'i' para inserir\n'j' para voltar linha\n 'l' para avançar linha\n 'k' adiciona linh\n ':w' salvar arquivo\n ':q'fecha o programa\n");
      printf("--- Conteudo do Arquivo ---\n");
      Node *atual = head;
      while (atual) {
